@@ -1,0 +1,21 @@
+{
+    "name": "book-liblary",
+    "private": true,
+    "version": "0.0.1",
+    "author": {
+        "name": "Javlon",
+        "email": "abdullayevjavlon720@gmail.com"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "pnpm -r --parallel  run start",
+        "dev": "pnpm -r --parallel run dev",
+        "start:api": "pnpm --filter api run start",
+        "dev:api": "pnpm --filter api run dev",
+        "start:web": "pnpm --filter web run start",
+        "dev:web": "pnpm --filter web run dev"
+    },
+    "devDependencies": {
+        "dotenv": "^17.4.1"
+    }
+}
