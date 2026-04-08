@@ -6,5 +6,3 @@ CREATE TABLE authors(
     email VARCHAR(255) NOT NULL CHECK (email LIKE '%@%.%'),
     age INT CHECK(age >= 1)
 );
-
-
